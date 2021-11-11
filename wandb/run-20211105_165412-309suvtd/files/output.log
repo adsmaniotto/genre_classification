@@ -1,0 +1,13 @@
+2021-11-05 16:54:13,713 Downloading and reading test artifact
+2021-11-05 16:54:14,574 Extracting target from dataframe
+2021-11-05 16:54:14,576 Downloading and reading the exported model
+Traceback (most recent call last):
+  File "run.py", line 89, in <module>
+    go(args)
+  File "run.py", line 37, in go
+    pipe = mlflow.sklearn.load_model(model_export_path)
+  File "/opt/anaconda3/envs/mlflow-272b303ac8adf9e0a3d6a06f48d103c0bed9fd36/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 448, in load_model
+    flavor_conf = _get_flavor_configuration(model_path=local_model_path, flavor_name=FLAVOR_NAME)
+  File "/opt/anaconda3/envs/mlflow-272b303ac8adf9e0a3d6a06f48d103c0bed9fd36/lib/python3.8/site-packages/mlflow/utils/model_utils.py", line 24, in _get_flavor_configuration
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Could not find an "MLmodel" configuration file at "/Users/tonysmaniotto/src/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/artifacts/model_export:v0"

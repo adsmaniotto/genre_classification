@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tonysmaniotto/src/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/9d1c7bed719e4d4f8187aa66ab749a2b/artifacts
+end_time: 1636593192683
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 9d1c7bed719e4d4f8187aa66ab749a2b
+run_uuid: 9d1c7bed719e4d4f8187aa66ab749a2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636593184005
+status: 4
+tags: []
+user_id: tonysmaniotto
