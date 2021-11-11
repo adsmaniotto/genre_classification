@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-11-11T22:40:40.767610",
+    "startedAt": "2021-11-11T22:40:39.994585",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Preprocessed data"
+    ],
+    "state": "running",
+    "program": "/Users/tonysmaniotto/src/genre_classification/preprocess/run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/adsmaniotto/genre_classification",
+        "commit": "3292d5d62e1c08283ca1ab72b99e663c4487a485"
+    },
+    "email": "t.smaniotto@fetchrewards.com",
+    "root": "/Users/tonysmaniotto/src/genre_classification",
+    "host": "Tony-Smaniottos-MacBook-Pro.local",
+    "username": "tonysmaniotto",
+    "executable": "/opt/anaconda3/envs/mlflow-484b576132a8d4f86bd93cd736b9c9cac218a14d/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tonysmaniotto/src/genre_classification/mlruns/0/290003ad9ce543f891182f530f81fe35/artifacts
+end_time: 1636670282803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 290003ad9ce543f891182f530f81fe35
+run_uuid: 290003ad9ce543f891182f530f81fe35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636670274953
+status: 3
+tags: []
+user_id: tonysmaniotto
