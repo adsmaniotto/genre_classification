@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-11-11T23:09:41.486122",
+    "startedAt": "2021-11-11T23:09:40.740278",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/tonysmaniotto/src/genre_classification/outputs/2021-11-11/17-08-58/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/adsmaniotto/genre_classification",
+        "commit": "319c61fd60c2f33704c88fbc751fc6746ea19527"
+    },
+    "email": "t.smaniotto@fetchrewards.com",
+    "root": "/Users/tonysmaniotto/src/genre_classification",
+    "host": "Tony-Smaniottos-MacBook-Pro.local",
+    "username": "tonysmaniotto",
+    "executable": "/opt/anaconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/bin/python"
+}
